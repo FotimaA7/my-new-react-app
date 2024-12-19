@@ -8,7 +8,10 @@ const App = () => (
   <Router>
     <div className="container"> {/* Main wrapper container */}
       <Routes>
+        {/* Home Route */}
         <Route path="/" element={<Home />} />
+        
+        {/* UserDetails Route */}
         <Route path="/user/:id" element={<UserDetails />} />
       </Routes>
     </div>
